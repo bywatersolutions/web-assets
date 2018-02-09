@@ -1,0 +1,26 @@
+@import url("/opac-tmpl/bootstrap/css/acll_blank.css");
+
+/* ccll */
+#ccllmain  { display: block; }
+#ccllnav	{ display: block; }
+#ccllheader	{ display: block; }
+
+#noresultsalameda { display: none; }
+#auth { display: none; }
+
+@media only screen and (min-width: 984px) {
+  #select_library {
+    min-width: 280px;
+  }
+
+  #translControl1 {
+    max-width: 550px;
+  }
+}
+#contra-costa-title {
+  font-size: 18px !important;
+}
+
+#ccllheader {
+  background-color: #C8A2C8;
+}

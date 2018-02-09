@@ -1,0 +1,305 @@
+/* San Mateo */
+#sanmateomain  { display: block; }
+#sanmateonav        { display: block; }
+#sanmateoheader     { display: block; }
+
+/*hiding other  headers */
+
+#ccllheader { display: none; }
+#acllheader { display: none; }
+
+.title {
+    font-size: 1rem !important;
+    line-height: 1.52;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #2F3C4A;
+}
+
+.author {
+    font-family: 'Roboto', sans-serif;
+    color: #305972;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 14px !important;
+    margin-top: 10px;
+}
+
+.results_material_type {
+    margin-top: 20px;
+    padding-top: 37px;
+    font-size: 14px !important;
+}
+
+.results_summary.availability, .results_summary.availability label, .results_format, .results_contents_literary, .results_summary.edition, .results_audience {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px !important;
+}
+
+.results_summary {
+
+    font-size: 14px !important;
+}
+
+.actions a.hold, a.addtoshelf {
+
+    font-size: 14px !important;
+
+}
+
+.actions a.addtocart, #CheckAll, #CheckNone, .CheckAll, .CheckNone, .toolbar .hold {
+
+    font-size: 14px !important;
+}
+
+
+
+#results .table th, #results .table td {
+    padding: 5px !important;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+#results .table td, #results .table th {
+    line-height: 1.2 !important;
+}
+
+#userresults .table.table-striped {
+    position: relative;
+    bottom: 60px !important;
+}
+
+#results #moresearches {
+    margin: 0px !important;
+}
+
+
+
+#opacheader img {
+    padding: 10px;
+}
+
+
+
+#login {
+
+    display: none;
+}
+
+#opacnavbottom a, #moresearches a, .breadcrumb a {
+    color: #696f76 !important;
+    font-family: rooney-web,sans-serif !important;
+}
+
+#searchsubmit, .btn, .ebook, .results_summary.online_resources a, #placehold {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #fcca67 !important;
+    background-image: -moz-linear-gradient(top, #fcca67, #fcca67) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fcca67), to(#fcca67)) !important;
+    background-image: -webkit-linear-gradient(top, #fcca67, #fcca67) !important;
+    background-image: -o-linear-gradient(top, #fcca67, #fcca67) !important;
+    background-image: linear-gradient(to bottom, #fcca67, #fcca67) !important;
+
+}
+
+
+#opacnavbottom a {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-size: 14px;
+    color: #305972;
+    font-weight: 300;
+    padding: 0px !important;
+    text-decoration: none;
+}
+
+#moresearches li a {
+    font-family: Arial;
+    color: #000000 !important;
+    font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif !important;
+    text-decoration: none;
+    padding: 18.557px;
+    position: relative;
+    top: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform:uppercase;
+}
+
+#opacmainuserblock section {
+    border-bottom: 1px solid #99CCCC;
+    border-top: 1px solid #99CCCC;
+}
+
+#moresearches {
+    margin: .5em 0;
+    padding: 0 .8em;
+    background-color:#99CCCC !important;
+    border: 1px solid #e1e8ed;
+}
+
+#opacmainuserblock ul li {
+    font-family: 'Lato', sans-serif !important;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#opacmainuserblock ul, #opacmainuserblock p  {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+#opacmainuserblock {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#hours {
+color: #99CCCC !important;
+}
+
+
+#opac-main-search select {
+    width: auto;
+    max-width: 19em !important;
+}
+
+#opacmainuserblock h3 {
+    font-family: 'Lato', sans-serif !important;
+}
+
+#opacmainuserblock h2 {
+    font-family: "aw-conqueror-carved-one" !important;
+    color: #fcca67;
+}
+
+
+#opacheader h1 {
+color:#99CCCC !important;
+font-family: "aw-conqueror-carved-one" !important;
+font-size:2.75em !important;
+line-height: 185px;
+margin-left:70px;
+
+}
+
+#opacheader {
+background-color:#ffffff !important;
+border-radius:20px;
+margin-top: 20px;
+border:1px solid #99CCCC;
+}
+
+#header-region {
+  background-color:transparent !important;
+
+}
+
+
+
+#members a {
+ color: #ffffff;
+letter-spacing: 1px;
+
+
+
+}
+
+
+.donate {
+    float: right;
+}
+
+#moresearches a {
+
+ color: #066;
+letter-spacing: 1px;
+
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#opacheader {
+  background-color:#006666;
+  display:flex;
+
+}
+
+.breadcrumb a {
+ color: #066;
+text-shadow:none;
+font-size:16px;
+
+}
+
+#opacheader h1 {
+
+    color: rgb(255, 255, 255);
+
+}
+
+.results_material_type {
+    display: none;
+}
+
+/* Hide the no image found image */
+.no-image { display: none !important; }
+/* CSS for Koha CoverFlow Plugin
+   This CSS was added automatically by installing the CoverFlow plugin
+   Please do not modify */
+.coverflow {
+    height:160px;
+    margin-left:25px;
+    width:850px;
+}
+
+.coverflow img,.coverflow .item {
+    -moz-border-radius:10px;
+    -moz-box-shadow:0 5px 5px #777;
+    -o-border-radius:10px;
+    -webkit-border-radius:10px;
+    -webkit-box-shadow:0 5px 5px #777;
+    border-radius:10px;
+    box-shadow:0 5px 5px #777;
+    height:100%;
+    width:100%;
+}
+
+.itemTitle {
+    padding-top:30px;
+}
+
+.coverflow .selectedItem {
+    -moz-box-shadow:0 4px 10px #0071BC;
+    -webkit-box-shadow:0 4px 10px #0071BC;
+    border:1px solid #0071BC;
+    box-shadow:0 4px 10px #0071BC;
+}
+/* End of CSS for Koha CoverFlow Plugin */
+    
+#san-mateo-title {
+    display: inline-block;
+}
