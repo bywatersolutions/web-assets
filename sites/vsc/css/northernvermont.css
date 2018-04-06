@@ -1,5 +1,10 @@
 // OPAC Design for Northern Vermont University
+@import url ("https://rawgit.com/bywatersolutions/web-assets/master/sites/vsc/css/vsc_blank.css");
+
+#northernvermontmain {display: block;}
+#northernvermontnav {display: block;}
+#northernvermontheader {display: block;}
 
 body {
-	color: #01426A !important;
+	color: red !important;
 }
