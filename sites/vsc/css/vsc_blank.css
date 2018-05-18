@@ -1,14 +1,23 @@
-/*Northern Vermont */
+/* Northern Vermont */
 #northernvermontmain {display: none;}
 #northernvermontnav {display: none;}
 #northernvermontheader {display: none;}
+.northernvermont{display: none;}
 
-/*Hartness Library */
+/* Hartness Library */
 #hartnessmain {display: none;}
 #hartnessnav {display: none;}
 #hartnessheader {display: none;}
+.hartness {display: none;}
 
-/*Castleton University*/
+/* Castleton University*/
 #castletonmain {display: none;}
 #castletonnav {display: none;}
 #castletonheader {display: none;}
+.castleton {display: none;}
+
+/* Main Site */
+#mainsitemain {display: none;}
+#mainsitenav {display: none;}
+#mainsiteheader {display: none;}
+.mainsite {display: none;}
