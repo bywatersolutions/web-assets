@@ -1,1 +1,42 @@
+pre { font-family: "Arial Black", Gadget, sans-serif; }
+pre { font-size: 10pt; }
 
+.message {
+    top::0px;
+    left: 0px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.message { page-break-after: always }
+
+div.address {
+    position: relative;
+    border 0px;
+    padding 0px;
+    margin 0px;
+    top: 1.25in;
+    left: 0.5in;
+    width: 4.5in;
+    height: 1.125in;
+}
+
+div.content {
+    position: relative;
+    top: 1.375in;
+    left: 0.0in;
+}
+
+@media screen {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
+@media print {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
