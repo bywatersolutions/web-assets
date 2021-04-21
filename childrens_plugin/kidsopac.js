@@ -154,7 +154,7 @@ $( ".scroll-down" ).click(function() {
 
 /* JS for Koha CoverFlow Plugin
    This JS was added automatically by installing the CoverFlow plugin
-   Please do not modify */$(document).ready(function(){$.getScript("/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.js",function(data,textStatus,jqxhr){$("head").append("<link id='flipster-css' href='/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.css' type='text/css' rel='stylesheet' />");$('#series_coverflow').load("/coverflow.pl?id=182",function(){$('.koha-coverflow img').on("load",function(){if(this.naturalHeight==1){$(this).attr("src","http://media.bywatersolutions.com/Model/NoImage.png");}});var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#popular_coverflow').flipster({});});$('#popular_coverflow').load("/coverflow.pl?id=184",function(){$('.koha-coverflow img').on("load",function(){if(this.naturalHeight==1){$(this).attr("src","http://media.bywatersolutions.com/Model/NoImage.png");}});var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#popular_coverflow').flipster({autoplay:'6000',buttons:'true',loop:'true',spacing:'0',style:'flat',});});});});
+   Please do not modify */$(document).ready(function(){$.getScript("/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.js",function(data,textStatus,jqxhr){$("head").append("<link id='flipster-css' href='/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.css' type='text/css' rel='stylesheet' />");$('#series_coverflow').load("/coverflow.pl?id=182",function(){$('.koha-coverflow img').on("load",function(){if(this.naturalHeight==1){$(this).attr("src","https://raw.githubusercontent.com/bywatersolutions/web-assets/master/childrens_plugin/images/NoImage.png");}});var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#popular_coverflow').flipster({});});$('#popular_coverflow').load("/coverflow.pl?id=184",function(){$('.koha-coverflow img').on("load",function(){if(this.naturalHeight==1){$(this).attr("src","https://raw.githubusercontent.com/bywatersolutions/web-assets/master/childrens_plugin/images/NoImage.png");}});var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#popular_coverflow').flipster({autoplay:'6000',buttons:'true',loop:'true',spacing:'0',style:'flat',});});});});
 /* End of JS for Koha CoverFlow Plugin */
 
 $(document).ready(function(){
@@ -360,7 +360,7 @@ $('#left').click(function() {
 })
 
 
-$(".mastheadsearch label").prepend("<a href='http://michael.test.bywatersolutions.com'><span><img src='http://media.bywatersolutions.com/kidspac/astronomy.png' /></span></a>");
+$(".mastheadsearch label").prepend("<a href='#'><span><img src='https://raw.githubusercontent.com/bywatersolutions/web-assets/master/childrens_plugin/images/astronomy.png' /></span></a>");
 
 $("#moresearches ul").append("<li><a class='active_menu' id='categories_link' href='#'>Explore!</a></li>");
 
@@ -594,7 +594,7 @@ linkc.html('<a class="ebook" href="'+pgbks_link+'">Available from Berg Fashion L
 $("span.online_resources").ready(function(){
 var pgbks_link = $("span.online_resources a[href^='http://www.bergfashionlibrary.com']").attr("href");
 if(pgbks_link){
-$("#holdings").html('<a href="'+pgbks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-generic.jpg" alt="Available from Berg Fashion Library" /></a>');
+$("#holdings").html('<a href="'+pgbks_link+'"><img src="https://raw.githubusercontent.com/bywatersolutions/web-assets/master/childrens_plugin/images/opac-generic.jpg" alt="Available from Berg Fashion Library" /></a>');
 }
 });
 
@@ -616,7 +616,7 @@ linkc.html('<a class="ebook" href="'+olbks_link+'">Available from the Open Libra
 $("span.online_resources").ready(function(){
 var pgbks_link = $("span.online_resources a[href^='http://www.gutenberg.org/etext']").attr("href");
 if(pgbks_link){
-$("#holdings").html('<a href="'+pgbks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-guten.png" alt="Available from Project Gutenberg" /></a>');
+$("#holdings").html('<a href="'+pgbks_link+'"><img src="https://raw.githubusercontent.com/bywatersolutions/web-assets/master/childrens_plugin/images/opac-guten.png" alt="Available from Project Gutenberg" /></a>');
 }
 });
 
@@ -624,7 +624,7 @@ $("#holdings").html('<a href="'+pgbks_link+'"><img src="http://media.bywatersolu
 $("span.online_resources").ready(function(){
 var olbks_link = $("span.online_resources a[href^='http://www.openlibrary.org/books']").attr("href");
 if(olbks_link){
-$("#holdings").html('<a href="'+olbks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-ol.png" alt="Available from the Open Library" /></a>');
+$("#holdings").html('<a href="'+olbks_link+'"><img src="https://raw.githubusercontent.com/bywatersolutions/web-assets/master/childrens_plugin/images/opac-ol.png" alt="Available from the Open Library" /></a>');
 }
 });
 
@@ -650,7 +650,7 @@ linkc.html('<a class="ebook" href="'+iabks_link+'">Available from the Internet A
 $("span.online_resources").ready(function(){
 var iabks_link = $("span.online_resources a[href^='http://www.archive.org/details']").attr("href");
 if(iabks_link){
-$("#holdings").html('<a href="'+iabks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-ia.png" alt="Available from the Internet Archive" /></a>');
+$("#holdings").html('<a href="'+iabks_link+'"><img src="https://raw.githubusercontent.com/bywatersolutions/web-assets/master/childrens_plugin/images/opac-ia.png" alt="Available from the Internet Archive" /></a>');
 }
 });
 
