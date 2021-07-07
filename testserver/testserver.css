@@ -1,5 +1,5 @@
 /* apply test server background to test sites */
 body {
-    background-image: url("https://raw.githubusercontent.com/bywatersolutions/web-assets/master/sites/bywater/BywaterTestServer.gif");
+    background-image: url("https://raw.githubusercontent.com/bywatersolutions/web-assets/master/sites/bywater/BywaterTestServer.gif") !important;
     background-repeat: repeat;
 }
