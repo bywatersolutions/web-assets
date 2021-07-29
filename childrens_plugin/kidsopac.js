@@ -632,7 +632,7 @@ $("#holdings").html('<a href="'+olbks_link+'"><img src="https://raw.githubuserco
 //Internet Archive results
 $("#userresults").ready(function(){
 
-$("#tab_holdings a").text("Get This Book Here!");
+$("#tab_holdings a").text("Get This Item Here!");
 
 $("#userresults table td").each(function(i){
 td = $(this);
