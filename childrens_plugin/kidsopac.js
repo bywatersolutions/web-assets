@@ -222,7 +222,7 @@ $("#holdings table tr td:eq(0)").prepend("This is a");
 
 $("#holdings table tr td.location").prepend("It's in");
 
-$(".available:contains('Available')").text("You can get this book!");
+$(".available:contains('Available')").text("You can get this item!");
 
 $(".shelvingloc").prepend("In the ");
 
