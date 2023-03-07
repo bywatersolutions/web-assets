@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response><Say voice="alice">For questions regarding your Dubuque County Library District account, please call 563-582-0008.</Say>
+<Pause length="1"/>
+<Say voice="alice">Thank you. Goodbye.</Say></Response>
